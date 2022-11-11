@@ -2444,7 +2444,10 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			/* module2color */
+			color: #FFE1C5;
+			/* old color
+			color: #b74e91;*/
 			content: '\f00c';
 		}
 
@@ -2525,7 +2528,10 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			/* sidebarcolor */
+			color: #9BB3AA;
+			/* old color
+			color: #312450;*/
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -3370,7 +3376,10 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		/* headercolor*/
+		background-color: #D1FFEF;
+		/* old color
+		background-color: #5e42a6;*/
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3857,7 +3866,10 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							/* sidebarcolor */
+							background-color: #D1FFEF;
+							/* old color
+							background-color: #b74e91;*/
 						}
 
 		}
